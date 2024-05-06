@@ -382,11 +382,21 @@ namespace Aplicacion_Vectores
         } 
         public void EliminarNoPrimos()
         {
-            for (int i = 1; i <= dimension; i++)
+            int i = 1; bool bandera = false;
+            while (i <= dimension)
             {
-                if (EsPrimo(i) == false)
+                if (EsPrimo(this.vector[i]) == false)
                 {
                     Eliminar(i);
+                    bandera = true;
+                }
+                else
+                {
+                    bandera= false;
+                }
+                if (bandera == false)
+                {
+                    i++;
                 }
             }
         }
