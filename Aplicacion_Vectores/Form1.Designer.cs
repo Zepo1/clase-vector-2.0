@@ -68,6 +68,7 @@
             this.verificarOrdeABToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pRACTICO2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eliminarNoPrimosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ordenarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -82,7 +83,7 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.ordenarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.ordenareElementoMultiploToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -395,7 +396,8 @@
             // 
             this.pRACTICO2ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.eliminarNoPrimosToolStripMenuItem,
-            this.ordenarToolStripMenuItem1});
+            this.ordenarToolStripMenuItem1,
+            this.ordenareElementoMultiploToolStripMenuItem});
             this.pRACTICO2ToolStripMenuItem.Name = "pRACTICO2ToolStripMenuItem";
             this.pRACTICO2ToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
             this.pRACTICO2ToolStripMenuItem.Text = "PRACTICO#2";
@@ -403,9 +405,16 @@
             // eliminarNoPrimosToolStripMenuItem
             // 
             this.eliminarNoPrimosToolStripMenuItem.Name = "eliminarNoPrimosToolStripMenuItem";
-            this.eliminarNoPrimosToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.eliminarNoPrimosToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
             this.eliminarNoPrimosToolStripMenuItem.Text = "EliminarNoPrimos";
             this.eliminarNoPrimosToolStripMenuItem.Click += new System.EventHandler(this.eliminarNoPrimosToolStripMenuItem_Click);
+            // 
+            // ordenarToolStripMenuItem1
+            // 
+            this.ordenarToolStripMenuItem1.Name = "ordenarToolStripMenuItem1";
+            this.ordenarToolStripMenuItem1.Size = new System.Drawing.Size(218, 22);
+            this.ordenarToolStripMenuItem1.Text = "OrdenarEspiralInterno";
+            this.ordenarToolStripMenuItem1.Click += new System.EventHandler(this.ordenarToolStripMenuItem1_Click);
             // 
             // textBox2
             // 
@@ -494,7 +503,7 @@
             // 
             this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox7.Location = new System.Drawing.Point(94, 210);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(2);
             this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(506, 32);
@@ -510,7 +519,7 @@
             // 
             this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox8.Location = new System.Drawing.Point(94, 262);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(2);
             this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(506, 32);
@@ -536,12 +545,12 @@
             this.label7.TabIndex = 17;
             this.label7.Text = "V2";
             // 
-            // ordenarToolStripMenuItem1
+            // ordenareElementoMultiploToolStripMenuItem
             // 
-            this.ordenarToolStripMenuItem1.Name = "ordenarToolStripMenuItem1";
-            this.ordenarToolStripMenuItem1.Size = new System.Drawing.Size(189, 22);
-            this.ordenarToolStripMenuItem1.Text = "OrdenarEspiralInterno";
-            this.ordenarToolStripMenuItem1.Click += new System.EventHandler(this.ordenarToolStripMenuItem1_Click);
+            this.ordenareElementoMultiploToolStripMenuItem.Name = "ordenareElementoMultiploToolStripMenuItem";
+            this.ordenareElementoMultiploToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.ordenareElementoMultiploToolStripMenuItem.Text = "OrdenareElementoMultiplo";
+            this.ordenareElementoMultiploToolStripMenuItem.Click += new System.EventHandler(this.ordenareElementoMultiploToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -631,6 +640,7 @@
         private System.Windows.Forms.ToolStripMenuItem pRACTICO2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eliminarNoPrimosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ordenarToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem ordenareElementoMultiploToolStripMenuItem;
     }
 }
 

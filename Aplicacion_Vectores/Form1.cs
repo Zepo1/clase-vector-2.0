@@ -206,5 +206,11 @@ namespace Aplicacion_Vectores
             V1.OrdenarEspiralInterno();
             textBox7.Text = V1.ToString();
         }
+
+        private void ordenareElementoMultiploToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            V1.OrdeMult(int.Parse(textBox5.Text));
+            textBox7.Text = V1.ToString();
+        }
     }
 }
