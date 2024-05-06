@@ -200,5 +200,11 @@ namespace Aplicacion_Vectores
             V1.EliminarNoPrimos();
             textBox7.Text = V1.ToString();
         }
+
+        private void ordenarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            V1.OrdenarEspiralInterno();
+            textBox7.Text = V1.ToString();
+        }
     }
 }

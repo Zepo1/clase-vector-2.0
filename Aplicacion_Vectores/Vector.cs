@@ -416,5 +416,42 @@ namespace Aplicacion_Vectores
             }
             return true;
         }
+        public void AdicionarEnPosicion( int position, int valor )
+        {
+
+        }
+        public void OrdenarEspiralInterno()
+        {
+            Ordenar();
+            int position = dimension - 1;
+            int limit = dimension % 2 == 0 ? dimension / 2 : (dimension / 2) + 1;
+
+            bool elimina = false;
+            bool insertar = false;
+            for (int i = 1; i <= limit; i++)
+            {
+                if (elimina)
+                {
+                    int valor = vector[i];
+                    Eliminar( i );
+
+                    if (insertar)
+                    {
+                        Insertar( position, valor );
+                        position--;
+                    }
+                    else
+                    {
+                        adicionar(valor);
+                        insertar = true;
+                    }
+                }
+                else
+                {
+                    elimina = true;
+                }
+            }
+
+        }
     }
 }

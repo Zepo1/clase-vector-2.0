@@ -17,3 +17,13 @@ D:\VISUAL\mollo\vectores\Aplicacion_Vectores\Aplicacion_Vectores\obj\Debug\Aplic
 D:\VISUAL\mollo\vectores\Aplicacion_Vectores\Aplicacion_Vectores\obj\Debug\Aplicacion_Vectores.csproj.CoreCompileInputs.cache
 D:\VISUAL\mollo\vectores\Aplicacion_Vectores\Aplicacion_Vectores\obj\Debug\Aplicacion_Vectores.exe
 D:\VISUAL\mollo\vectores\Aplicacion_Vectores\Aplicacion_Vectores\obj\Debug\Aplicacion_Vectores.pdb
+D:\mikic\Documents\01FULL-STACK\2BACK\C#\clase-vector-2.0\Aplicacion_Vectores\bin\Debug\Aplicacion_Vectores.exe.config
+D:\mikic\Documents\01FULL-STACK\2BACK\C#\clase-vector-2.0\Aplicacion_Vectores\bin\Debug\Aplicacion_Vectores.exe
+D:\mikic\Documents\01FULL-STACK\2BACK\C#\clase-vector-2.0\Aplicacion_Vectores\bin\Debug\Aplicacion_Vectores.pdb
+D:\mikic\Documents\01FULL-STACK\2BACK\C#\clase-vector-2.0\Aplicacion_Vectores\obj\Debug\Aplicacion_Vectores.csproj.AssemblyReference.cache
+D:\mikic\Documents\01FULL-STACK\2BACK\C#\clase-vector-2.0\Aplicacion_Vectores\obj\Debug\Aplicacion_Vectores.Form1.resources
+D:\mikic\Documents\01FULL-STACK\2BACK\C#\clase-vector-2.0\Aplicacion_Vectores\obj\Debug\Aplicacion_Vectores.Properties.Resources.resources
+D:\mikic\Documents\01FULL-STACK\2BACK\C#\clase-vector-2.0\Aplicacion_Vectores\obj\Debug\Aplicacion_Vectores.csproj.GenerateResource.cache
+D:\mikic\Documents\01FULL-STACK\2BACK\C#\clase-vector-2.0\Aplicacion_Vectores\obj\Debug\Aplicacion_Vectores.csproj.CoreCompileInputs.cache
+D:\mikic\Documents\01FULL-STACK\2BACK\C#\clase-vector-2.0\Aplicacion_Vectores\obj\Debug\Aplicacion_Vectores.exe
+D:\mikic\Documents\01FULL-STACK\2BACK\C#\clase-vector-2.0\Aplicacion_Vectores\obj\Debug\Aplicacion_Vectores.pdb
