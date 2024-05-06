@@ -416,5 +416,37 @@ namespace Aplicacion_Vectores
             }
             return true;
         }
+        public void OrdeMult(int multiplo)
+        {
+            int aux = 0; int aux2 = 0; bool bandera=false;
+            for (int i = 1; i <= dimension; i++)
+            {
+                if (i % multiplo == 0)
+                {
+                    for (int j = i; j <= dimension; j++)
+                    {
+                        if (bandera == false)
+                        {
+                            aux = this.vector[i];
+                            bandera = true;
+                        }
+                        if (j % multiplo == 0)
+                        {
+                            aux2 = this.vector[j];
+                            if (aux >= aux2)
+                            {
+                                intercambiar(i, j);
+                                aux = aux2;
+                                
+                            }
+                        }
+                    }   
+                    bandera = false;
+               } 
+            }
+            
+
+            
+        }
     }
 }
